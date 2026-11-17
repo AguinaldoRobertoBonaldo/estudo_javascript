@@ -1,0 +1,15 @@
+let produto = "Livro";
+let quantidade = 3;
+let preco = 29.90;
+let disponivel = true;
+
+console.log(typeof produto);
+console.log(typeof quantidade);
+console.log(typeof preco);
+console.log(typeof disponivel);
+
+console.log("----- Cadastro de produto -----");
+console.log(`Produto: ${produto}`);
+console.log(`Quantidade: ${quantidade}`);
+console.log(`Preço: R$ ${preco.toFixed(2)}`);
+console.log(`Disponível: ${disponivel}`);
